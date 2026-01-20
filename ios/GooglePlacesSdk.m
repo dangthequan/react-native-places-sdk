@@ -9,6 +9,7 @@ RCT_EXPORT_MODULE(GooglePlacesSdk);
     return @{
         @"name": GMSPlacePropertyName,
         @"formatted_address": GMSPlacePropertyFormattedAddress,
+        @"address_components": GMSPlacePropertyAddressComponents,
         @"coordinate": GMSPlacePropertyCoordinate,
         @"phone_number": GMSPlacePropertyPhoneNumber,
         @"website": GMSPlacePropertyWebsite,
